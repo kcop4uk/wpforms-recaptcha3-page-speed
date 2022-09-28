@@ -33,10 +33,7 @@ function wpforms_recaptcha3_modify_loading( $tag, $handle, $src ) {
                 ". $content ."
 
                 function onloadRecaptchaCallback() {
-                    console.log('recaptcha.loaded');
-
                     grecaptcha.ready( function () {
-                        console.log('wpforms recaptcha ready 1');
                         wpformsDispatchEvent( document, 'wpformsRecaptchaLoaded', true );
                     } );
 
@@ -58,7 +55,6 @@ function wpforms_recaptcha3_modify_loading( $tag, $handle, $src ) {
                 }
                 function loadReCaptcha3OnScroll() {
                     window.removeEventListener('scroll', loadReCaptcha3OnScroll); 
-                    console.log('loading recaptcha...')
                     LoadReCaptcha3(); 
                 } window.addEventListener('scroll', loadReCaptcha3OnScroll);</script>
             </script>
