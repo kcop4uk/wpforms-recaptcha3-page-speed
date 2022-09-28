@@ -2,7 +2,7 @@
 /*
 Plugin Name: WPForms: recaptcha v3 performance
 Plugin URI: https://github.com/kcop4uk/wpforms-recaptcha3-page-speed/
-Description: Improving WPForms page speed performance when Google Recaptcha v3 is used. Tested with WPForms Pro 1.7.2.2
+Description: Improves WPForms page speed test performance (https://pagespeed.web.dev) when Google Recaptcha v3 is used. Tested with WPForms Pro 1.7.2.2
 Author: kcop4uk
 Version: 1.0.0
 Author URI: https://fotexlabs.com/
